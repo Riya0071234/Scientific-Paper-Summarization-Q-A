@@ -1,0 +1,28 @@
+# Core RAG Framework
+langchain==0.1.0
+langchain-community==0.0.13
+langchain-openai==0.0.5
+
+# PDF Processing (Fixed versions)
+PyMuPDF==1.23.14
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+
+# Text Processing & Embeddings
+sentence-transformers==2.2.2
+tiktoken==0.5.2
+
+# Vector Database
+chromadb==0.4.22
+
+# Web Framework
+streamlit==1.29.0
+
+# Utilities
+python-dotenv==1.0.0
+pandas==2.1.4
+numpy==1.24.3
+tqdm==4.66.1
+
+# Optional: Jupyter for testing
+jupyter==1.0.0
