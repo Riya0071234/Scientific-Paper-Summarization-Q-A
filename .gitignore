@@ -1,0 +1,319 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Scientific Paper Q&A Specific Files
+# ===================================
+
+# Data directories
+data/papers/
+data/vector_store/
+data/embeddings/
+data/processed/
+data/raw/
+data/cache/
+
+# Model and checkpoint files
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.pt
+*.pth
+*.bin
+
+# Vector databases
+*.chroma/
+*.pinecone/
+*.weaviate/
+*.faiss
+*.index
+
+# PDF files (papers)
+*.pdf
+
+# Large data files
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.arrow
+
+# Configuration files with secrets
+config.yaml
+config.json
+secrets.yaml
+secrets.json
+
+# API keys and credentials
+.api_keys
+.credentials
+api_keys.txt
+credentials.txt
+
+# Logs and debugging
+logs/
+*.log
+debug.log
+error.log
+app.log
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache directories
+.cache/
+cache/
+__pycache__/
+
+# Evaluation results
+results/
+evaluations/
+benchmarks/
+metrics/
+
+# Web interface temporary files
+uploads/
+static/uploads/
+web/uploads/
+
+# Docker
+.dockerignore
+Dockerfile.dev
+docker-compose.override.yml
+
+# Kubernetes
+k8s/secrets/
+*.secret.yaml
+
+# CI/CD
+.github/workflows/secrets/
+
+# Research artifacts
+experiments/
+notebooks/.ipynb_checkpoints/
+*.ipynb
+
+# System monitoring
+.htop_config
+
+# Package managers
+poetry.lock
+Pipfile.lock
+yarn.lock
+package-lock.json
+
+# Environment-specific
+.env.local
+.env.development
+.env.staging
+.env.production
+
+# Profiling
+*.prof
+*.lprof
+
+# Memory dumps
+*.dmp
+
+# Test coverage
+.coverage
+coverage/
+.nyc_output/
+
+# Large language model artifacts
+*.safetensors
+*.msgpack
+
+# Scientific computing temporary files
+*.npy
+*.npz
+*.mat
+
+# Visualization outputs
+plots/
+figures/
+charts/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.eps
+
+# LaTeX (if generating papers)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
