@@ -352,9 +352,6 @@ python scripts/evaluate.py --dataset test_questions.json --metrics accuracy,rele
 - **Citation Quality**: Source attribution accuracy
 - **Response Coherence**: Readability and flow
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -379,9 +376,9 @@ If you use this tool in your research, please cite:
 
 ## Contact
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/scientific-paper-qa/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/scientific-paper-qa/discussions)
-- **Email**: your.email@institution.edu
+- **Issues**: [GitHub Issues](https://github.com/Riya0071234/scientific-paper-qa/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Riya0071234/scientific-paper-qa/discussions)
+- **Email**: riyap9451@gmail.com
 
 ---
 
